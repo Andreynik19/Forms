@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(241, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.header {
+    padding-top: 60px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.container p {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: grey solid 1px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    color: grey;
+}
+
+select {
+    width: 32.5%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+button {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.register {
+    background-color: rgb(72, 200, 72);
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.or {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: grey;
+}
+
+.or::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 1px;
+    background-color: grey;
+    margin-right: 10px;
+}
+
+.or::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 1px;
+    background-color: grey;
+    margin-left: 10px;
+}
+
+.facebook {
+    background-color: rgb(23, 23, 224);
+    color: white;
+    cursor: pointer;
+    /* padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    border: none;*/
+}
